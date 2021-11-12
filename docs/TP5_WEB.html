@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Informe Final del Trabajo Práctico <strong>#5</strong></h1>
+
+<h3>Sección teórica</h3>
+
+<h4>1. Microondas</h4>
+<p>Para entender de una mejor manera el término o concepto de Microondas, se debe hablar inicialmente de las ondas electromagnéticas como del espectro electromagnético. Como menciona Ordoñez (2012) las ondas electromagnéticas son una propagación simultánea tanto de los campos eléctrico y magnético debido o provocados por una carga eléctrica en movimiento. Estos campos son importantes para poder comprender cómo se propaga la energía en el espacio.  De este concepto sobresale, la radiación electromagnética que es la energía saliente que se forma de ondas electromagnéticas, esta energía puede tener origen natural como artificial. Dicha radiación electromagnética se puede producir en diferentes frecuencias, es decir las ondas pueden tener diferentes números de ciclos a lo largo de una unidad de tiempo, estas frecuencias o conjunto de frecuencias son el espectro electromagnético.
+ 
+Por lo cual, las microondas son un tipo de radiación electromagnética, que se clasifican como tal, en el espectro electromagnético. Debido a su tipo de radiación electromagnética, tiene una longitud de onda, y una frecuencia distinta, estas van desde 1mm hasta 1m, y desde 1 Ghz hasta valores cercanos a los 300 Ghz, respectivamente. (Lucas, 2018). Estos valores pueden variar en diferentes fuentes, debido a la fuente de quien realice la clasificación, por lo cual se pueden encontrar valores un poco distintos. Estas longitudes de onda son bastante superiores con respecto a las del espectro visible como a las del infrarrojo, dichas ondas al ser tan largas, hace que la energía disponible en ellas se realmente pequeña, por lo cual para muchos sistemas pasivos necesitan un campo de visión lo bastante amplio o grande para así poder detectar la suficiente energía para poder grabar u obtener dicha señal enviada, esto conlleva que muchos de estos sensores pasivos, o sensores microondas pasivos tenga una baja resolución espacial (Qihao, 2012).
+ 
+Por ende, muchos de los sensores activos, que trabajan mediante microondas, deben proporcionar una fuente de radiación propia la cual ilumine los objetivos en el suelo. Una de las ventajas del espectro del microondas es que, debido a su larga longitud de onda, su radiación puede penetrar la nubosidad y la gran mayoría de las condiciones meteorológicas (Qihao, 2012). Independientemente del sensor que se utilice, ya sea pasivo o activo. Además de esta característica, también se encuentra en una ventana atmosférica, la cual es una región del espectro electromagnético en donde no se produce alguna absorción, por lo cual la energía que pasa por ventana no será atenuada en una gran medida. 
+</p>
+
+ <img src="https://github.com/David-young99/TP5/blob/6048aed410217c57cea4b495996608def113549d/fto_espectro1.jpg" alt="Espectro electromagnético, selección del espectro microondas"></img>
+ Fuente: Globedia, s.f.
+ 
+<h4>2. Retrodispersión  y constante dieléctrica</h4>
+<p>En los trabajos prácticos anteriores usábamos el concepto de “reflectancia” para referirnos a el reflejo de la luz solar en la superficie terrestre y todo lo que en ella alberga, y cómo un sensor pasivo puede diferenciar entre las distintas longitudes de ondas producto de este constante reflejo. En este caso hablamos de sensores activos, y como se mencionó previamente utiliza sus propias ondas que son “reflejadas” nuevamente hacia el sensor, este proceso y todo lo que conlleva para ser captado correctamente se conoce como “retrodispersión”, también conocido como Sección Transversal del Radar (RCS). 
+
+La retrodispersión del radar depende de la cantidad de la cantidad de energía que regrese posterior al “rebote” en la superficie, y esta, depende de otros factores como:
+ a) ángulo de incidencia: Cambios en el ángulo harán que llegue menor o mayor cantidad de energía de retorno al sensor, evidentemente, si se cambia el ángulo de incidencia en la imagen final el resultado será muy diferente.
+
+b) Longitud de onda: Los sensores SAR usualmente capturan en una sola banda, sin embargo algunos varían la forma en cómo emiten esa señal, y según esto, esa onda puede penetrar más o menos la superficie, por ejemplo omitir la vegetación. 
+
+c) Polarización: Cuando se habla de ondas electromagnéticas, abarca tanto el campo eléctrico cómo el magnético, estos campos se mueven a ciertas direcciones específicas, en SAR se trabaja con campos eléctricos lineales, o sea, puede ser emitido en vertical o en horizontal:
+
+ <img src="https://github.com/David-young99/TP5/blob/main/a.jpg" alt="Imagen de dos polarizaciones VV y VH"></img>
+ Fuente: Flores-Anderson et.al, 2020.
+ 
+d) Rugosidad del terreno: La rugosidad del terreno juega un papel muy importante en la dispersión de la energía cuando colisiona contra la superficie. Por esta razón es un factor muy importante en la cantidad de energía que regresa al sensor.
+
+
+ <img src="https://github.com/David-young99/TP5/blob/main/b.jpg"></img>
+ Fuente: Elaboración propia
+
+e) Densidad y orientación de la cobertura vegetal
+
+Similar al anterior, determinará el rebote de la onda según la forma en cómo se encuentre la vegetación sobre la superficie.
+
+
+La constante dieléctrica
+
+Es un valor numérico que nos indica la reflectividad y conductividad de una superficie, si una superficie es poco conductora son conocidos como dieléctricos, estos cuando son impactados por una onda, absorberán una alta cantidad de energía de la onda, por lo que la onda de retorno contendrá mucho menos energía que la energía enviada. Este valor normalmente se expresa de 0 a 80, donde valores más bajos corresponden a, por ejemplo, superficies secas, por otra parte superficies con mayor contenido de humedad, tenderá a tener un valor de la constante dieléctrica mayor.
+
+ <img src="https://github.com/David-young99/TP5/blob/main/c.jpg"></img>
+ Constante dieléctrica y penetración
+Fuente: Meyer, 2021.
+
+</p>
+
+<h4>3. Bandas en radar para aplicaciones ambientales</h4>
+<p>La percepción remota por radar es un instrumento que genera su propia señal electromagnética dado a que es un sensor activo, de tal forma que transmite un pulso de microondas para la observación propiamente de la superficie de la tierra, al ser un sensor activo permite observar la superficie terrestre tanto de día como de noche. Estos instrumentos o herramientas de radar, puede tener diferentes bandas de longitudes de ondas, tales como Ka y Ku, X-, C-, S-, L- y la banda P, estas se fueron definidas por el Institute of Electrical and Electronics Engineers (IEEE). (Meyer, 2019). Estas bandas se encuentran a lo largo del espectro de microondas, pero con distintas frecuencias, por lo cual cada una puede utilizar de una manera específica para un determinado estudio. Al aumentar la longitud de onda que puede emitir el sensor, puede haber una mayor o menor penetración, por ejemplo, la banda L tiene una mayor longitud de onda, por lo cual tiene una menor frecuencia, lo que hace que tenga una mayor penetración a diferencia de las bandas C o X, que cuenta con una menor longitud de onda, y una mayor frecuencia.
+Donde se aplica una mayor utilización de estas bandas, son en los sensores SAR, por ejemplo, al detectar la cobertura de vegetación, según el área de estudio y propiamente el estudio a realizar, se deben utilizar diferentes bandas. Si únicamente se quiere observar las copas de los árboles, se pueden utilizar las bandas X, si quiere estudiar de una mejor manera la biomasa, o propiamente la estructura de la vegetación se utilizan las bandas C y L, que tienen una mayor penetración. (Meyer, 2019).
+Se puede aplicar gran cantidad de aplicaciones, según la banda que se utilice, por ejemplo, con la banda Ku se puede estudiar la glaciología, en la cual se puede mapear grandes áreas que se encuentren cubiertas de nieve, como se mencionó anteriormente las bandas X, C y L se pueden utilizar para el estudio de agricultura, la banda L debido a su longitud de onda, también se puede utilizar para estudiar de una buena manera la humedad del suelo, así como áreas con cuerpos de agua, así como la gestión forestal. Y en gran medida la banda P, tiene una mayor penetración en suelos secos. (Villegas, 2019)
+</p>
+  <img src="https://github.com/David-young99/TP5/blob/6048aed410217c57cea4b495996608def113549d/Weyer.png" alt="Bandas RADAR"></img>
+ Fuente: Meyer, 2019. 
+
+<h4>4. Radar de Apertura Sintética (SAR)</h4>
+<p>El radar de apertura sintética SAR (por sus siglas en inglés Synthetic-Aperture Radar) es un método de recolección de datos por parte de los satélites, utilizando radar. Reiterando lo mismo que se mencionó al inicio, las ondas radar se envían a la superficie y el “rebote” o retrodispersión, son las que los sensores captan y miden las diferentes distancias de los objetos.
+El SAR utiliza una antena que tiene relación con la resolución espacial de la imagen final, por esta razón, antenas más grandes generarán resoluciones más grandes, sin embargo para una resolución de 10 m se ocuparía una antena de 4250 m, lo que lo convierte en algo poco práctico para ser un satélite. Los ingenieros simulan este tamaño de antena con diferentes procesos, ocupando al final, una antena de poco tamaño y obteniendo una mejor resolución.
+
+Mecanismos de polarización y dispersión:
+
+Los mecanismo de polarización se refiere a la forma en dirección, en cómo es emitida recibida la señal electromagnética, por ejemplo, si es emitida en vertical y recibida en horizontal se denomina VH, si es emitida y recibida en horizontal, se denomina HH, y así sucesivamente. Estas polarizaciones se usan para diferentes objetivos de dispersión, dependiendo de qué queremos estudiar se puede usar uno u otro.
+La dispersión de las superficies puede generar un rebote diferente de las ondas, por ejemplo la superficie rugosa, una cobertura vegetal determinada y una mancha urbana. En estos casos el tipo de polarización que se use es más o menos sensible para cada caso, por ejemplo la polarización VV es más sensible para superficies rugosas, o la dispersión VH o HV es más sensible para la dispersión de volumen, cuando la señal colisiona y rebota constantemente dentro del follaje de la vegetación. 
+</p>
+
+
+
+<h3>Flujos de trabajo</h3>
+
+<h4>1. Inundaciones</h4>
+<img src="https://github.com/David-young99/TP5/blob/main/Diagrama%20en%20blanco.png"></img>
+
+<h4>2. índice de Vegetación con Radar</h4>
+<img src="https://github.com/David-young99/TP5/blob/6048aed410217c57cea4b495996608def113549d/Blank%20diagram%20(2).jpeg"></img>
+
+<h3>Conclusiones</h3>
+Uno de los puntos que se pueden destacar como primer aspecto, son los resultados del código utilizado para detectar inundaciones, destacando con un alto contraste los cuerpos de agua en general, este contraste permite observar hasta cuerpos de agua de "menor tamaño" para el satélite. Si a esto le sumamos la posibilidad de poder cambiar las fechas de las fotografías, puede generar resultados listos para análisis más complejos. Ya este resultado permite diversos análisis, por ejemplo determinar los lugares poteciales de inundaciones en la zona, y así desarrollar medidas de prevención ante un fenómeno similar a futuro, entre otros.
+<img src="https://github.com/David-young99/TP5/blob/main/as.png"></img>
+<p>Fuente: Resultado del código de GEE de la región de Upala visto desde SAR en el antes y después del huracán Otto en el año 2016</p>
+
+Por otra parte, el uso del filtro de Speckle, siendo este elemento un paso fundamental para la detección de las inundaciones, ya que sino se aplica, la imagen acumula mucho ruido visual (granulado) que puede dificultar su análisis, en especial si el área de estudio es a una escala menor. Por esta razón se aplica este filtro, el resultado será una imagén con píxeles más suavizados que homogeniza regiones donde había diferencia entre los píxeles cercanos, esto debido a interferencia. 
+
+<img src="https://github.com/David-young99/TP5/blob/main/cn1.png"></img>
+<p>Fuente: Resultado del código de GEE de la región de Upala visto desde SAR en el antes y después de la aplicación del filtro de Speckle</p>
+
+Además la aplicación de un umbral para poder separar las zonas de inundación, para esto se aplicó una fórmula, para este caso en este caso específico se utilizó el siguiente código:
+
+```
+var Threshold_Up = 1.80;
+var differenceVV_thresholded = differenceVV.gt(Threshold_Up);
+Map.addLayer(differenceVV_thresholded.updateMask(differenceVV_thresholded),{palette:"#1e1fd6"},'flooded areas');
+```
+Aplicado este umbral separá las zonas de inundación del resto de la superficie, en otras palabras individualizará los cuerpos de agua de la zona de estudio, por lo que el resultado será una capa solamente con el criterio anterior. Esto permitiría clasificar las inundaciones de forma manual pero más rápido, utilizando únicamente SAR en GEE. 
+<img src="https://github.com/David-young99/TP5/blob/main/cn2.jpg"></img>
+<p>Fuente: Resultado del código de GEE de la región de Upala con el umbral aplicado para separa únicamente las inundaciones/p>
+<h1></h1>
+Unas de las principales diferencias entre el índice de vegetación con Radar (RVI) y la detección de inundaciones, es el uso diferente de las combinaciones de polarización, para el RVI se utilizan dos combinaciones de polarización VV y VH respectivamente, y para la detección de inundaciones VH. Inicialmente se puede deber a varios factores, el más fundamental es que para la creación del índice de vegetación se utiliza la siguiente expresión matemática: RVI=(VV/(VV+VH))0.5(4VH)/(VV+VH), donde se utiliza tanto la combinación vertical vertical (VV) y la vertical horizontal (VH) trabajando con ambos campos eléctricos lineales. Este RVI como lo menciona () se forma a partir de una relación entre la polarización cruzada como la potencial total, por lo cual utiliza ambos canales de polarización. Los valores de esta ecuación, en este caso se deben normalizar para una mejor interpretación, por lo cual se debe ejecutar una línea de código que tome los valores de los pixeles que se encuentran en dB, y convertirlos a valores lineales, que son los valores necesarios para una mejor interpretación de la retrodispersión del caso de estudio. Al normalizar dichos valores, se obtiene valores desde 0 a 1, en donde valores cercanos a 0 quieren decir que los niveles de retrodispersión son menores, por lo cual en esas zonas la cobertura vegetal es mínima, o totalmente nula, al obtener valores más cercanos al 1, quiere decir que hay una mayor cobertura vegetal sobre dichas áreas. Otro factor el que puede determinar el uso de las distintas combinaciones de polarización, es la disponibilidad de estas que brinden las imágenes sobre el caso de estudio. 
+  
+</body>
+</html>
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
