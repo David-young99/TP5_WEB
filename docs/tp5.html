@@ -1,6 +1,13 @@
-<link rel="stylesheet" href="../css/style.css">
-
-<h1>Informe Final del Trabajo Práctico <strong>#5</strong></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Informe Final del Trabajo Práctico <strong>#5</strong></h1>
 
 <h3>Sección teórica</h3>
 
@@ -99,3 +106,6 @@ Aplicado este umbral separá las zonas de inundación del resto de la superficie
 <p>Fuente: Resultado del código de GEE de la región de Upala con el umbral aplicado para separa únicamente las inundaciones/p>
 <h1></h1>
 Unas de las principales diferencias entre el índice de vegetación con Radar (RVI) y la detección de inundaciones, es el uso diferente de las combinaciones de polarización, para el RVI se utilizan dos combinaciones de polarización VV y VH respectivamente, y para la detección de inundaciones VH. Inicialmente se puede deber a varios factores, el más fundamental es que para la creación del índice de vegetación se utiliza la siguiente expresión matemática: RVI=(VV/(VV+VH))0.5(4VH)/(VV+VH), donde se utiliza tanto la combinación vertical vertical (VV) y la vertical horizontal (VH) trabajando con ambos campos eléctricos lineales. Este RVI como lo menciona () se forma a partir de una relación entre la polarización cruzada como la potencial total, por lo cual utiliza ambos canales de polarización. Los valores de esta ecuación, en este caso se deben normalizar para una mejor interpretación, por lo cual se debe ejecutar una línea de código que tome los valores de los pixeles que se encuentran en dB, y convertirlos a valores lineales, que son los valores necesarios para una mejor interpretación de la retrodispersión del caso de estudio. Al normalizar dichos valores, se obtiene valores desde 0 a 1, en donde valores cercanos a 0 quieren decir que los niveles de retrodispersión son menores, por lo cual en esas zonas la cobertura vegetal es mínima, o totalmente nula, al obtener valores más cercanos al 1, quiere decir que hay una mayor cobertura vegetal sobre dichas áreas. Otro factor el que puede determinar el uso de las distintas combinaciones de polarización, es la disponibilidad de estas que brinden las imágenes sobre el caso de estudio. 
+  
+</body>
+</html>
